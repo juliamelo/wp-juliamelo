@@ -1,0 +1,19 @@
+/*
+Theme Name: Twenty Twelve Child Theme
+Template: twentytwelve
+*/
+
+@import url('../twentytwelve/style.css');
+
+
+p {
+	color: red;
+}
+
+.site-header-home {
+	background-color: yellow;
+}
+
+.site-header-about {
+	background-color: blue;
+}
