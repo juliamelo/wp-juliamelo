@@ -17,3 +17,7 @@ p {
 .site-header-about {
 	background-color: blue;
 }
+
+h1 {
+	font-family: Helvetica; 
+}
