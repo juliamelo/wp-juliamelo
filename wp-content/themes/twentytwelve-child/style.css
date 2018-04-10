@@ -5,19 +5,47 @@ Template: twentytwelve
 
 @import url('../twentytwelve/style.css');
 
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+body {
+	background-color: #ff99cc !important;
+}
 
 p {
 	color: blue;
+	font-family: Lato, sans-serif;
 }
 
-.site-header-home {
-	background-color: yellow;
+
+
+h1,h2,h3,h4 {
+	font-family: Raleway, sans-serif;
+	text-transform: uppercase;
+	
 }
+
 
 .site-header-about {
 	background-color: blue;
 }
 
-h1 {
-	font-family: Helvetica; 
+
+body .site {
+    box-shadow: none !important;
 }
+
+/*
+.post-15 .entry-header .entry-title {
+	display: none;
+}
+*/
+
+
+
+
+.entry-page-image {
+    width: 100%!important;
+}
+	
+	
